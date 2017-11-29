@@ -1,0 +1,66 @@
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(5:<0.101.0>) Config server started, logdir is "/Users/riandyrn/go/src/github.com/riandyrn/tinode-user-generator/20171130-0603"
+ 
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+              ts_mon:(5:<0.82.0>) starting monitor, global 
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+           ts_config:(5:<0.101.0>) Reading config file: tsung-topic-init-testing.xml
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+           ts_config:(5:<0.101.0>) Session name for id 1 is "stress-test-topic-init"
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(4:<0.101.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(4:<0.101.0>) SYSINFO:Erlang version: Erlang/OTP 20 [erts-9.1] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:8] [hipe] [kernel-poll:true] [dtrace]
+
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(4:<0.101.0>) SYSINFO:System architecture x86_64-apple-darwin16.7.0
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(4:<0.101.0>) SYSINFO:Current path: /usr/local/Cellar/tsung/1.7.0/lib/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+              ts_mon:(5:<0.102.0>) Activate clients with text backend
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+              ts_mon:(5:<0.102.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(5:<0.101.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    alarm_handler: {set,{system_memory_high_watermark,[]}}
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+         ts_launcher:(5:<0.155.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+  ts_launcher_static:(5:<0.154.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+    ts_config_server:(5:<0.101.0>) New arrival phase 1 for client "localhost" (last ? true): will start 10000 users
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+         ts_launcher:(5:<0.155.0>) Expected duration of first phase: 60.0 sec (10000 users) 
+
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+         ts_launcher:(5:<0.155.0>) Can't get file descriptors limit from system, you should verify that 'maxusers' has a good value 
+=INFO REPORT==== 30-Nov-2017::06:03:29 ===
+         ts_launcher:(5:<0.155.0>) Activate launcher (10000 users) in 994 msec 
+
+=INFO REPORT==== 30-Nov-2017::06:04:23 ===
+         ts_launcher:(5:<0.155.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 30-Nov-2017::06:04:28 ===
+     ts_launcher_mgr:(5:<0.149.0>) No more active users 'tsung_controller@Riandys-MacBook-Pro' "67193"
+
+=INFO REPORT==== 30-Nov-2017::06:04:28 ===
+              ts_mon:(5:<0.102.0>) stopping monitor (normal)

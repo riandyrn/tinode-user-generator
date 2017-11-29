@@ -1,0 +1,246 @@
+
+	title is " rate", offset at (character 0, 0, 0)
+
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [204.166:204.166], adjusting to [202.124:206.208]
+
+	title is " rate", offset at (character 0, 0, 0)
+
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [204.166:204.166], adjusting to [202.124:206.208]
+
+	title is " Request and tcp/udp connection rate", offset at (character 0, 0, 0)
+
+
+	title is " Mean request (and connection) duration", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " Request and tcp/udp connection rate", offset at (character 0, 0, 0)
+
+
+	title is " Mean request (and connection) duration", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " Transaction and page rate", offset at (character 0, 0, 0)
+
+
+	title is " Mean transaction and page duration", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " Transaction and page rate", offset at (character 0, 0, 0)
+
+
+	title is " Mean transaction and page duration", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " rate", offset at (character 0, 0, 0)
+
+
+	title is " total", offset at (character 0, 0, 0)
+
+
+	title is " rate", offset at (character 0, 0, 0)
+
+
+	title is " total", offset at (character 0, 0, 0)
+
+
+	title is " Simultaneous users and opened TCP/UDP connections", offset at (character 0, 0, 0)
+
+
+	title is " maximum_simultaneous", offset at (character 0, 0, 0)
+
+
+	title is " Simultaneous users and opened TCP/UDP connections", offset at (character 0, 0, 0)
+
+
+	title is " maximum_simultaneous", offset at (character 0, 0, 0)
+
+
+	title is " Users arrival/departure rate", offset at (character 0, 0, 0)
+
+
+	title is " Total users", offset at (character 0, 0, 0)
+
+
+	title is " Users arrival/departure rate", offset at (character 0, 0, 0)
+
+
+	title is " Total users", offset at (character 0, 0, 0)
+
+
+	title is " Network throughput", offset at (character 0, 0, 0)
+
+
+	title is " Total send/receive bytes", offset at (character 0, 0, 0)
+
+
+	title is " Network throughput", offset at (character 0, 0, 0)
+
+
+	title is " Total send/receive bytes", offset at (character 0, 0, 0)
+
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [4.62101:4.62101], adjusting to [4.5748:4.66722]
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [4.62101:4.62101], adjusting to [4.5748:4.66722]
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [1.90234:1.90234], adjusting to [1.88332:1.92137]
+
+	title is " rate", offset at (character 0, 0, 0)
+
+Warning: empty y range [0.1:0.1], adjusting to [0.099:0.101]
+
+	title is " mean", offset at (character 0, 0, 0)
+
+
+	title is " stddev", offset at (character 0, 0, 0)
+
+Warning: empty y range [0:0], adjusting to [-1:1]
+
+	title is " max_sample", offset at (character 0, 0, 0)
+
+
+	title is " min_sample", offset at (character 0, 0, 0)
+
+Warning: empty y range [1.90234:1.90234], adjusting to [1.88332:1.92137]

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/local/Cellar/tsung/1.7.0/share/tsung/tsung-1.0.dtd">
+<tsung loglevel="notice">
+    <clients>
+        <client host="localhost" use_controller_vm="true"/>
+    </clients>
+    <servers>
+        <server host="127.0.0.1" port="6060" type="tcp"/>
+    </servers>
+    <load>
+        <arrivalphase phase="1" duration="1" unit="minute">
+            <users maxnumber="10000" arrivalrate="200" unit="second"/>
+        </arrivalphase>
+    </load>
+    <options>
+        <option name="file_server" id="file_tokens" value="tokens_10000.csv"/>
+    </options>
+    <sessions>
+        <!--
+            The idea to stress test topicInit is by using me topic
+        -->
+        <session name="stress-test-topic-init" probability="100" type="ts_websocket">
+            <!-- load tokens from file -->
+            <setdynvars sourcetype="file" fileid="file_tokens" order="iter">
+                <var name="token"/>
+            </setdynvars>
+            <!-- connect websocket -->
+            <request>
+                <websocket type="connect" path="/v0/channels?apikey=AQEAAAABAAD_rAp4DJh05a1HAwFT3A6K"/>
+            </request>
+            <!-- send {hi} -->
+            <request>
+                <websocket type="message" frame="text">
+                    {"hi":{"id":"tsung send hi","ver":"0.13","ua":"TinodeWeb/0.13 (MacIntel) tinodejs/0.13"}}
+                </websocket>
+            </request>
+            <!-- send {login} -->
+            <request subst="true">
+                <websocket type="message" frame="text">
+                    {"login":{"id":"tsung send login","scheme":"token","secret":"%%_token%%"}}
+                </websocket>
+            </request>
+            <!-- send {sub topic="me"} -->
+            <request>
+                <websocket type="message" frame="text">
+                    {"sub":{"id":"tsung sub to me","topic":"me"}}
+                </websocket>
+            </request>
+            <!-- close websocket -->
+            <request>
+                <websocket type="close"/>
+            </request>
+        </session>
+    </sessions>
+</tsung>
